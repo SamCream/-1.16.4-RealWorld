@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: realworld
+Implementation-Version: 1.0-SNAPSHOT
+Specification-Vendor: SamCream
+Specification-Title: realworld
+Implementation-Timestamp: 2021-02-10T22:29:57+0800
+Specification-Version: 1
+Implementation-Vendor: SamCream
+
