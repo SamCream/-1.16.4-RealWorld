@@ -31,7 +31,8 @@ public class RegistryEvents {
                 ItemList.MagnesiumChloride=new Item(new Item.Properties().group(ItemGroup.MATERIALS).maxStackSize(64)).setRegistryName(location("magnesium_chloride")),
                 ItemList.MagnesiumBicarbonate=new Item(new Item.Properties().group(ItemGroup.MATERIALS).maxStackSize(64)).setRegistryName(location("magnesium_bicarbonate")),
                 ItemList.MagnesiumChlorideHexahydrate=new Item(new Item.Properties().group(ItemGroup.MATERIALS).maxStackSize(64)).setRegistryName(location("magnesium_chloride_hexahydrate")),
-                ItemList.MagnesiteItem=new BlockItem(BlockList.Magnesite,new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(BlockList.Magnesite.getRegistryName())
+               ItemList.MagnesiumRod=new Item(new Item.Properties().group(ItemGroup.MATERIALS).maxStackSize(64)).setRegistryName(location("magnesium_rod")),
+ ItemList.MagnesiteItem=new BlockItem(BlockList.Magnesite,new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(BlockList.Magnesite.getRegistryName())
         );
     }
     @SubscribeEvent
