@@ -10,4 +10,5 @@ public class ItemList {
     public static Item MagnesiumChloride;
     public static Item MagnesiumBicarbonate;
     public static Item MagnesiumChlorideHexahydrate;
+    public static Item MagnesiumRod;
 }
