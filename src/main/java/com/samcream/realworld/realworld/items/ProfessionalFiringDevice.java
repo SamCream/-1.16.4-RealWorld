@@ -7,6 +7,6 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 
 public class ProfessionalFiringDevice extends FlintAndSteelItem {
     public ProfessionalFiringDevice() {
-        super(new Properties().group(ItemGroup.MATERIALS));
+        super(new Properties().group(ItemGroup.MATERIALS).maxDamage(1500)/*.maxStackSize(1)*/);
     }
 }

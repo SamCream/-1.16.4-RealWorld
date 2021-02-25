@@ -1,9 +1,10 @@
 package com.samcream.realworld.realworld;
-import com.samcream.realworld.realworld.items.ItemRegistry;
+import com.samcream.realworld.realworld.blocks.BlockRegister;
+import com.samcream.realworld.realworld.items.ItemRegister;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
@@ -38,8 +39,15 @@ public class realworld {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
         // Register ourselves for server and other game events we are interested in
-        MinecraftForge.EVENT_BUS.register(this);
-        ItemRegistry.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+//      MinecraftForge.EVENT_BUS.register(this);
+      ItemRegister.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        BlockRegister.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+//        modEventBus.addListener(this::setup);
+//        modEventBus.addListener(this::clientSetup);
+//物品与方块的注册
+//
+//        BlockRegister.BLOCKS.register(modEventBus);
     }
 
     private void setup(final FMLCommonSetupEvent event) {
@@ -82,5 +90,6 @@ public class realworld {
             LOGGER.info("HELLO from Register Block");
         }
     }
+
 }
 

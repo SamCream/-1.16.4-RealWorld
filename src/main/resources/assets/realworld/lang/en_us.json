@@ -1,9 +1,18 @@
 {
-"item.realworld.magnesium_dust":"Magnesium Dust",
-"item.realworld.professional_firing_device":"Professional Firing Device",
-  "block.realworld.magnesite":"Magnesite",
+  "item.realworld.magnesium_dust":"Magnesium Dust",
+  "item.realworld.professional_firing_device":"Professional Firing Device",
   "item.realworld.magnesium_carbonate": "Magnesium Carbonate",
   "item.realworld.magnesium_chloride": "Magnesium Chloride",
   "item.realworld.magnesium_bicarbonate": "Magnesium Bicarbonate",
-  "item.realworld.magnesium_chloride_hexahydrate": "Magnesium Chloride Hexahydrate"
+  "item.realworld.magnesium_chloride_hexahydrate": "Magnesium Chloride Hexahydrate",
+  "item.realworld.blade": "Blade",
+  "block.realworld.tripod": "Tripod",
+  "block.realworld.lathe_cnc": "CNC Lathe",
+  "block.realworld.magnesite":"Magnesite",
+  "block.realworld.alcohol_burner_empty":"Empty Alcohol Burner",
+  "block.realworld.alcohol_burner_full":"Full Alcohol Burner",
+  "itemGroup.material_machine": "Materials Science Machine",
+  "itemGroup.material_ore": "Materials Ore",
+  "itemGroup.material_science": "Hylology",
+  "itemGroup.chemical_apparatus": "Chemical Apparatus"
 }

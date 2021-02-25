@@ -1,9 +1,18 @@
 {
-"item.realworld.magnesium_dust":"Магнитный порошок",
-"item.realworld.professional_firing_device":"Специальное устройство зажигания",
-"block.realworld.magnesite":"Ингурсоловая руда",
+  "item.realworld.magnesium_dust":"Магнитный порошок",
+  "item.realworld.professional_firing_device":"Специальное устройство зажигания",
   "item.realworld.magnesium_carbonate": "карбонат магния",
   "item.realworld.magnesium_chloride": "Хлорид магния",
   "item.realworld.magnesium_bicarbonate": "Углерод магния",
-  "item.realworld.magnesium_chloride_hexahydrate": "Шесть вод хлористого магния"
+  "item.realworld.magnesium_chloride_hexahydrate": "Шесть вод хлористого магния",
+  "item.realworld.blade": "Блейд - модуль",
+  "block.realworld.tripod": "штатив",
+  "block.realworld.lathe_cnc": "токарный станок",
+  "block.realworld.magnesite":"Ингурсоловая руда",
+  "block.realworld.alcohol_burner_empty":"Пустая горелка алкоголя",
+  "block.realworld.alcohol_burner_full":"Полная горелка алкоголя",
+  "itemGroup.material_machine": "материальная машина",
+  "itemGroup.material_ore": "материальная руда",
+  "itemGroup.material_science": "хилология",
+  "itemGroup.chemical_apparatus": "химический аппарат"
 }
